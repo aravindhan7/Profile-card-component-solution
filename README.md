@@ -19,7 +19,7 @@ This is a solution to the [Profile card component solution
 ### Links
 
 - Solution URL: [https://github.com/aravindhan7/Profile-card-component-solution]
-- Live Site URL: [https://aravindhan7.github.io/Stats-preview-card-components/]
+- Live Site URL: [https://aravindhan7.github.io/Profile-card-component-solution/]
 
 
 ## Author

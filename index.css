@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(229, 23%, 23%);
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    background-position: 100px -400px , 1000px 400px;
+   
+   
+}
+
+.main{
+    width: 340px;
+    height: 380px;
+    border-radius: 14px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, .3);
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.top{
+background-image: url(images/bg-pattern-card.svg);
+width: 100%;
+height: 140px;
+border-radius: 14px 14px 0 0;
+}
+
+.profile{
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 90px;
+    left: 115px;
+    width: 105px;
+}
+
+.bottom{
+    margin-top: 75px;
+    width: 100%;
+    
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.age{
+    font-weight: 400;
+}
+.city{
+    text-align: center;
+    margin-top: 6px;
+    font-size: .9rem;
+}
+
+.counts-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 45px 0px 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: hsl(0, 0%, 59%);
+
+}
+
+.counts-container span{
+    display: block;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.line{
+    border: .1rem solid rgba(0, 0, 0, .05);
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.attribution{
+    color: white;
+    font-weight: 700;
+    width: 250px;
+    text-align: center;
+}
+
+.attribution a{
+    color: black;
+}
+
+.age, .city, .counts-container span{
+    color: hsl(0, 0%, 59%);
+}
